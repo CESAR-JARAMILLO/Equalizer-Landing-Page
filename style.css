@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #191826;
+  background: url('./assets/bg-main-mobile.png') no-repeat;
+  
+  min-width: 380px;
+}
+
+header .logo {
+  margin: 40px 0 64px 24px;
+}
+
+main .container {
+  min-width: 326px;
+  margin: 0 24px;
+}
+
+main .container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+
+main .container p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+section .container {
+  height: 600px;
+  margin-top: 162px;
+  background: #191826 url('./assets/bg-pattern-2.svg') no-repeat center center/cover;
+  position: relative;
+}
+
+section .container img {
+  height: 430px;
+  width: 208px;
+  position: absolute;
+  top: -94px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+section .premium-container {
+  background: #fA7453;
+  color: #fcfaf9;
+  padding-bottom: 48px;
+  border-radius: 10px;
+  position: relative;
+  top: -26px;
+}
+
+section .premium-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 48px 0 18px 36px;
+}
+
+section .premium-container p {
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0 36px 42px 36px;
+}
+
+section .premium-container span {
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 34px;
+}
+
+section .premium-container .btn {
+  display: block;
+  width: 296px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 21px 0;
+  border-radius: 10px;
+}
+
+section .premium-container .ios-btn {
+  background: #191826;
+  color: #fcfaf9;
+  margin-bottom: 16px;
+}
+
+section .premium-container .android-btn {
+  background: #fcfaf9;
+  color: #191826;
+}
+
+footer {
+  padding: 62px 24px 80px 24px;
+}
+
+footer .logo {
+  margin-bottom: 16px;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+footer .email {
+  font-weight: bold;
+}
+
+footer .icons {
+  margin-top: 48px;
+}
+
+footer .icons img {
+  padding-right: 24px;
+}

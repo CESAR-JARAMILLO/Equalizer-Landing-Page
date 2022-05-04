@@ -141,7 +141,7 @@ header .logo {
 }
 
   main .container {
-    max-width: 520px;
+    width: 60%;
   }
 
   main .container h1 {
@@ -201,4 +201,65 @@ header .logo {
   footer .icons {
     align-self: flex-end;
   }
+}
+
+/* Desktop */
+@media (min-width: 1028px) {
+  body {
+    padding: 0 165px;
+  }
+
+  main .container {
+    width: 80%;
+  }
+
+  main .container h1 {
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    margin-bottom: 40px;
+  }
+
+  main .container p [
+    font-size: 20px;
+    line-height: 28px;
+  ]
+
+  .pattern-1 {
+    top: 0;
+    right: 0;
+  }
+
+  section .container {
+    margin-top: 314px;
+    background-position: left 300px top -50px;
+  }
+
+  section .container img {
+    height: 642px;
+    width: 312px;
+    top: -216px;
+  }
+
+  section .premium-container {
+    height: 625px;
+    width: 446px;
+    left: 600px;
+    top: -500px;
+  }
+  
+  section .premium-container p {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  
+  section .premium-container .btn {
+    width: 332px;
+  }
+
+  /* footer .container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  } */
 }

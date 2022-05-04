@@ -204,13 +204,13 @@ header .logo {
 }
 
 /* Desktop */
-@media (min-width: 1028px) {
+@media (min-width: 1440px) {
   body {
     padding: 0 165px;
   }
 
   main .container {
-    width: 80%;
+    width: 90%;
   }
 
   main .container h1 {
@@ -257,9 +257,19 @@ header .logo {
     width: 332px;
   }
 
-  /* footer .container {
+  footer .container {
     display: flex;
     justify-content: space-between;
-    width: 60%;
-  } */
+    width: 800px;
+  }
+
+  footer .container p {
+    width: 366px;
+  }
+
+  footer .footer-text {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* width: 60%; */
+  }
 }

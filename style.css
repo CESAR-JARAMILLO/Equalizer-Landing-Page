@@ -228,10 +228,10 @@ header .logo {
     margin-bottom: 40px;
   }
 
-  main .container p [
+  main .container p {
     font-size: 20px;
     line-height: 28px;
-  ]
+}
 
   .pattern-1 {
     top: 0;

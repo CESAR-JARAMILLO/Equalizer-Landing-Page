@@ -100,9 +100,17 @@ section .premium-container .ios-btn {
   margin-bottom: 16px;
 }
 
+section .premium-container .ios-btn:hover {
+  background: #66e2dc;
+}
+
 section .premium-container .android-btn {
   background: #fcfaf9;
   color: #191826;
+}
+
+section .premium-container .android-btn:hover {
+  background: #FFB964;
 }
 
 footer {
@@ -265,11 +273,6 @@ header .logo {
 
   footer .container p {
     width: 366px;
-  }
-
-  footer .footer-text {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* width: 60%; */
+    line-height: 26px;
   }
 }
